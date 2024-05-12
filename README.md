@@ -55,14 +55,10 @@ This app is largely a learning excercise for Red's:
 
 ## Usage Notes
 
-**Mein Gott!** can be run directly from the [Red/View interpreter](https://www.red-lang.org/p/download.html) on supported platforms:
-```
-
-```
+**Mein Gott!** can be run directly from the [Red/View interpreter](https://www.red-lang.org/p/download.html) on supported platforms.
 
 Pre-compiled binaries are provided for select platforms as well. These should load and initialize much faster than interpreting the script dynamically.
-- [x] Windows
-
+- [x] [Windows](mein-gott.zip)
 
 Note that Red is currently 32-bit only (Red is built in 32-bit Rebol 2, with migration to self-hosting with 64-bit support for Red 1.0. Red's initial development preceded 64-bit open-source [Rebol 3](https://github.com/rebol/rebol)). So you'll need appropriate 32-bit libraries on Linux while MacOS users may have to resort to a virtual machine, sorry!
 
