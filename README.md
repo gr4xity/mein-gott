@@ -40,7 +40,7 @@ In 2023, I discovered Dr. Robert Vanderbei's Javascript + WebGL [animated Gott p
 
 - Mouse wheel: scroll the map forwards or backwards relative to the cursor.
 
-- Resize the window from the top or bottom border, and the width will adjust to preserve the map's aspect ratio.
+- Resize the window from the left or right border, and the height will adjust to preserve the map's aspect ratio.
 
 - You can change rendering options in the Options menu.
 
