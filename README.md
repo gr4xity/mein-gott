@@ -5,7 +5,7 @@ Interactive turntable of planetary maps in the Gott projection.
 
 Azimuthal maps project views of planets from a perspective in space, "ray-tracing" to render 2D images of 3D spheres.
 
-Two view from opposite poles can show an entire planet on-screen--in a strategy-based video game for example. This app began as a prototype by Chaoskampf Studios in 2019, using a Lambert azimuthal equal-area projection.
+Two views from opposite poles can show an entire planet on-screen--in a strategy-based video game for example. This app began as a prototype by Chaoskampf Studios in 2019, using a Lambert azimuthal equal-area projection.
 
 In 2021, Gott, Goldberg, and Vanderbei [published a new method](https://arxiv.org/ftp/arxiv/papers/2102/2102.08176.pdf) minimizing spatial distortion. This **Double-Sided Gott Equidistant Azimuthal projection** "is the most accurate flat map of Earth yet"! And the authors featured a similar two-hemisphere presentation--though focused on pedagogical use, especially paper maps.
 
