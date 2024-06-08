@@ -349,8 +349,8 @@ loading: layout compose/deep [
 about: layout [
 	title "About Mein Gott!"
 	below
-	text 320x24 center italic font-size 13 "Mein Gott! 1.0.3 - A Chaoskampf Prototype"
-	rich-text 320x320 font-size 9 {Azimuthal maps project views of planets from a perspective in space, "ray-tracing" to render 2D images of 3D spheres.
+	text 332x24 center italic font-size 13 "Mein Gott! 1.0.3 - A Chaoskampf Prototype"
+	rich-text 332x320 font-size 9 {Azimuthal maps project views of planets from a perspective in space, "ray-tracing" to render 2D images of 3D spheres.
 
 Two view from opposite poles can show an entire planet on-screen--in a strategy-based video game for example.
 
