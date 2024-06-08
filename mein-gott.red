@@ -17,7 +17,7 @@ Red [
 		1.0.0 [2023-02-26 "Documentation and release!" "Justin the Smith"]
 		1.0.1 [2024-05-12 "Updated for latest Red" "Justin the Smith"]
 		1.0.2 [2024-05-12 "Minor cleanup" "Justin the Smith"]
-		1.0.2 [2024-06-07 "Switched to higher resolution source images to showcase subpixel rendering" "Justin the Smith"]
+		1.0.3 [2024-06-07 "Switched to higher resolution source images to showcase subpixel rendering" "Justin the Smith"]
 	]
 	See-Also: https://vanderbei.princeton.edu/planets_webgl/GottPlanets.html
 ]
@@ -349,7 +349,7 @@ loading: layout compose/deep [
 about: layout [
 	title "About Mein Gott!"
 	below
-	text 320x24 center italic font-size 13 "Mein Gott! 1.0 - A Chaoskampf Prototype"
+	text 320x24 center italic font-size 13 "Mein Gott! 1.0.3 - A Chaoskampf Prototype"
 	rich-text 320x320 font-size 9 {Azimuthal maps project views of planets from a perspective in space, "ray-tracing" to render 2D images of 3D spheres.
 
 Two view from opposite poles can show an entire planet on-screen--in a strategy-based video game for example.
