@@ -1,7 +1,7 @@
 Red [
 	Title:	"Mein Gott!"
 	Author:	"Justin the Smith"
-	Date: 2024-05-12
+	Date: 2024-06-07
 	Needs:	'View
 	Icon: %icons/64x64.ico
 	History: [
@@ -16,6 +16,8 @@ Red [
 		0.9.0 [2023-02-25 "Added optional parallels and option toggle for stars" "Justin the Smith"]
 		1.0.0 [2023-02-26 "Documentation and release!" "Justin the Smith"]
 		1.0.1 [2024-05-12 "Updated for latest Red" "Justin the Smith"]
+		1.0.2 [2024-05-12 "Minor cleanup" "Justin the Smith"]
+		1.0.2 [2024-06-07 "Switched to higher resolution source images to showcase subpixel rendering" "Justin the Smith"]
 	]
 	See-Also: https://vanderbei.princeton.edu/planets_webgl/GottPlanets.html
 ]
@@ -31,16 +33,19 @@ map: make reactor! [
 	; image configuration
 	image-source: https://vanderbei.princeton.edu/planets_webgl/
 	menu: [
-		"Earth"	Earth	%EarthMap_brighter_1250x675.jpg
-		"EarthNoIce"	EarthNoIce	%pixy_earth_431843_1250x625.jpg
-		"EarthCountries"	EarthCountries	%World_location_map_equirectangular_1250x625.jpg
-		"Moon"	Moon	%MoonMap_mixed_RGB_1250x625.jpg
-		"Mars"	Mars	%5672_mars_12k_color_annotated_1250x625.jpg
-		"Jupiter1"	Jupiter1	%jupiter_css_1250x625.jpg
-		"Jupiter2"	Jupiter2	%jupiter_vgr2_1250x625.jpg
-		"Saturn"	Saturn	%saturn_1250x625.jpg
-		"TychoStars"	TychoStars	%tycho8_1250x625.jpg
-		"MilkyWay"	MilkyWay	%milkyway_625x1250.jpg
+		"Earth"	Earth	%EarthMap_brighter_2500x1250.jpg
+		"Earth No Ice"	EarthNoIce	%pixy_earth_431843_2500x1250.jpg
+;		"EarthCountries"	EarthCountries	%World_location_map_equirectangular_1250x625.jpg
+		"Moon 1"	Moon1	%MoonMap_mixed_RGB_2500x1250.jpg
+		"Moon 2"	Moon2	%moon_2500x1250.jpg
+		"Mars"	Mars	%5672_mars_12k_color_annotated_2500x1250.jpg
+		"Jupiter Cassini"	Jupiter1	%jupiter_cassini_2500x1250.jpg
+		"Jupiter CSS"	Jupiter2	%jupiter_css_2500x1250.jpg
+		"Jupiter VGR2"	Jupiter3	%jupiter_vgr2_2500x1250.jpg
+		"Saturn"	Saturn	%saturn_2500x1250.jpg
+		"Tycho Stars"	TychoStars	%tycho8_2500x1250.jpg
+		"Milky Way"	MilkyWay	%milkyway_1250x2500.jpg
+		"Planck Cosmos"	PlanckCosmos	%PlanckCosmos2_cropped_2500x1250.png
 	]
 
 	; mouse operations
@@ -66,7 +71,7 @@ map: make reactor! [
 	north: south: make image! window-size / 1x2
 	maps: make map! []
 
-	;function defintions
+	; function defintions
 	load-image: func [
 		"Try to load map image by menu key, inform error on fail"
 		key [word!]
@@ -374,7 +379,7 @@ Right mouse button: select a different map. Please be patient for rendering the 
 
 Mouse wheel: scroll the map forwards or backwards relative to the cursor.
 
-Resize the window from the side borders. The height will adjust to preserve the map's aspect ratio.
+Resize the window from the left or right border. The height will adjust to preserve the map's aspect ratio.
 
 The Options menu lets you configure map rendering.}
 	with [
