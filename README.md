@@ -24,6 +24,7 @@ In 2023, I discovered Dr. Robert Vanderbei's Javascript + WebGL [animated Gott p
 - Graphical Model
 	- [x] Subpixel precision and anti-aliasing
 	- [x] Random star background
+	- [x] Solar shadow
 	- [x] Key parallels (lines of longitude and latitude)
 
 - User Interface
