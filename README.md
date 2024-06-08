@@ -21,12 +21,15 @@ In 2023, I discovered Dr. Robert Vanderbei's Javascript + WebGL [animated Gott p
 	- [x] Grab to stop movement
 	- [x] Drag and release to impart momentum
 
+- Graphical Model
+	- [x] Subpixel precision and anti-aliasing
+	- [x] Random star background
+	- [x] Key parallels (lines of longitude and latitude)
+
 - User Interface
 	- [x] Program and context menu controls
 	- [x] Dynamic resizing preserving aspect ratio
-	- [x] Configurable rendering options
-		- [x] Random star background
-		- [x] Key parallels (lines of longitude and latitude)
+	- [x] Configurable graphical options
 
 - Content
 	- [x] Select from multiple maps of different planets
