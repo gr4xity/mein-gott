@@ -34,18 +34,18 @@ map: make reactor! [
 	image-source: https://vanderbei.princeton.edu/planets_webgl/
 	menu: [
 		"Earth"	Earth	%EarthMap_brighter_2500x1250.jpg
-		"Earth No Ice"	EarthNoIce	%pixy_earth_431843_2500x1250.jpg
+		"Earth No Ice Caps"	EarthNoIce	%pixy_earth_431843_2500x1250.jpg
 ;		"EarthCountries"	EarthCountries	%World_location_map_equirectangular_1250x625.jpg
-		"Moon 1"	Moon1	%MoonMap_mixed_RGB_2500x1250.jpg
-		"Moon 2"	Moon2	%moon_2500x1250.jpg
+		"Moon (Soft)"	Moon1	%MoonMap_mixed_RGB_2500x1250.jpg
+		"Moon (Hard)"	Moon2	%moon_2500x1250.jpg
 		"Mars"	Mars	%5672_mars_12k_color_annotated_2500x1250.jpg
-		"Jupiter Cassini"	Jupiter1	%jupiter_cassini_2500x1250.jpg
-		"Jupiter CSS"	Jupiter2	%jupiter_css_2500x1250.jpg
-		"Jupiter VGR2"	Jupiter3	%jupiter_vgr2_2500x1250.jpg
+		"Jupiter VGR2 1979-06-30"	Jupiter2	%jupiter_vgr2_2500x1250.jpg
+		"Jupiter Cassini 2000-12-11"	Jupiter1	%jupiter_css_2500x1250.jpg
+		"Jupiter Cassini Enhanced Color"	Jupiter0	%jupiter_cassini_2500x1250.jpg
 		"Saturn"	Saturn	%saturn_2500x1250.jpg
 		"Tycho Stars"	TychoStars	%tycho8_2500x1250.jpg
 		"Milky Way"	MilkyWay	%milkyway_1250x2500.jpg
-		"Planck Cosmos"	PlanckCosmos	%PlanckCosmos2_cropped_2500x1250.png
+		"Planck Cosmic Dust Polarization"	PlanckCosmos	%PlanckCosmos2_cropped_2500x1250.png
 	]
 
 	; mouse operations
