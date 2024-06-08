@@ -64,6 +64,18 @@ Note that Red is currently 32-bit only (Red is built in 32-bit Rebol 2, with mig
 
 Red apps are compiled directly to native system code without any external dependencies. It's a unique, self-contained toolchain. This uniqueness can trigger false positives from some anti-virus products. Please report false positives to your anti-virus vendor.
 
+### Compilation ###
+
+With the [Red Toolchain](https://www.red-lang.org/p/download.html) named redc.exe on Windows, compiling in release mode for the Windows platform:
+```
+redc.exe -r -t Windows mein-gott.red
+```
+
+Cross-compilation to other target platforms is easy:
+```
+redc.exe -r -t Linux mein-gott.red
+```
+
 ## References
 
 - [Gott, Goldberg, and Vanderbei (2021)](https://arxiv.org/ftp/arxiv/papers/2102/2102.08176.pdf)
